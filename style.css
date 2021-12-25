@@ -1,0 +1,20 @@
+.card {
+    border:1px solid brown;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin:auto;
+    margin-top: 3px;
+    visibility: hidden;
+    text-align: center;
+    position:relative;
+    left:100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width:300px;
+
+    transition: left 0.2s ease-in;
+}
+.show {
+    visibility: visible;
+    left:10px;
+}
